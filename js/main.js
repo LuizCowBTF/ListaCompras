@@ -48,7 +48,7 @@ function mostrarItem() {
   listaDeItens.forEach((elemento, index) => {
     if(elemento.checar){
       ulItemsComprados.innerHTML += `
-        <li class="item-compra is-flex is-justify-content-space-between" data-value="${index}">
+        <li class="item-compra" data-value="${index}">
           <div>
             <input type="checkbox" checked class="is-clickable" />  
             <span class="itens-comprados is-size-5">${elemento.valor}</span>
@@ -62,7 +62,7 @@ function mostrarItem() {
     else
     {
       ulItens.innerHTML += `
-        <li class="item-compra is-flex is-justify-content-space-between" data-value="${index}">
+        <li class="item-compra" data-value="${index}">
           <div>
             <input type="checkbox" class="is-clickable" />
             <input type="text" class="is-size-5" value="${elemento.valor}" ${index !== Number(itemAEditar) ? 'disabled' : ''}></input>

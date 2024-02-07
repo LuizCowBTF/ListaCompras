@@ -1,0 +1,119 @@
+* {
+    background: url('../imgs/body-bg.png') repeat;
+    font-family: 'Roboto', 'sans-serif';
+    color: #00CCFF;
+}
+
+h1 {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #B28601;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #B28601;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #B28601;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 2px solid #865701;
+    border-radius: 30px;
+}
+
+button {   
+    width: 100px;
+    font-size: 18px;
+    border-radius: none solid 10px;
+    margin-top: 15px;
+}
+
+input [text] {
+    margin: 20px;
+    padding: 15px;
+    width: 300px;
+    background: black;
+    font-size: 22px;
+    color: white;
+    font-weight: bolder;
+    border-radius: none solid 20px;
+}
+
+input:disabled {
+    border: none;
+    background: none;
+    color: white;
+}
+
+footer { 
+    margin: 10px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #B28601;
+}
+
+.container {
+    width: 900px;
+    margin: 10px auto;
+    border: 2px solid #865701;
+    border-radius: 5px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 5px auto;
+}
+
+.listItens {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleList {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #B28601;
+    font-weight: bold;
+    margin: 10px 0 0 15px;
+}
+
+.item-compra {
+    width: 600px;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 5px 15px 5px 5px;
+    padding: 5px 15px 5px 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+.itens-comprados {
+    margin: 5px 15px 5px 5px;
+    padding: 5px 15px 5px 5px;
+    text-decoration: line-through;
+}
+
+.borda-lista {
+    border-bottom: dotted 2px blue;
+}
